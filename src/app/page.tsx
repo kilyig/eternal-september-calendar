@@ -8,7 +8,7 @@ export default function Home() {
       </header>
       <main className="flex-1 flex flex-col items-center justify-center px-8 pb-12 sm:px-20 gap-8">
         <EternalSeptemberCalendar />
-        <p className="font-mono max-w-xl text-center mt-8">
+        <p className="font-mono max-w-md sm:max-w-2xl lg:max-w-4xl text-center sm:text-left mt-8">
           Usenet, a major discussion system of the early Internet and precursor to Internet forums, was a place of civility and professionalism — except in September, when first-year university students gained access to the Internet and Usenet through their university campuses and wreaked havoc for a few weeks before learning online etiquette. In 1993, Internet service providers made access to Usenet much easier. What followed was a continuous deluge of new users the likes of which Usenet had never seen before. Thus began Eternal September, <i>the September that never ended</i>. As usual, more info at <a href="https://en.wikipedia.org/wiki/Eternal_September" className="text-blue-600 underline">Wikipedia</a>.
         </p>
       </main>
