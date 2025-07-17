@@ -22,7 +22,7 @@ export function EternalSeptemberCalendar() {
   return (
     <div className="flex flex-col gap-3 items-center">
       <Label className="px-1 font-mono self-center">
-        What you thought the date was:
+        You thought the date was:
       </Label>
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
