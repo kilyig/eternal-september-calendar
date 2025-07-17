@@ -14,7 +14,25 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "The Eternal September Calendar",
-  description: "The September that never ended...",
+  description: "The September that never ended",
+  openGraph: {
+    title: "The Eternal September Calendar",
+    description: "The September that never ended",
+    images: [
+      {
+        url: "/preview.jpg",
+        width: 1024,
+        height: 1024,
+        alt: "Eternal September Calendar",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Eternal September Calendar",
+    description: "The September that never ended",
+    images: ["/preview.jpg"],
+  },
 };
 
 export default function RootLayout({
