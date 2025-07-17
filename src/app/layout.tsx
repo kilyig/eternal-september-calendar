@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "The September that never ended",
     images: [
       {
-        url: "/preview.jpg",
+        url: "https://kilyig.github.io/eternal-september-calendar/preview.png",
         width: 1024,
         height: 1024,
         alt: "Eternal September Calendar",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Eternal September Calendar",
     description: "The September that never ended",
-    images: ["/preview.jpg"],
+    images: ["https://kilyig.github.io/eternal-september-calendar/preview.png"],
   },
 };
 
