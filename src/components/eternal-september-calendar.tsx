@@ -46,6 +46,8 @@ export function EternalSeptemberCalendar() {
             captionLayout="dropdown"
             defaultMonth={date}
             locale={enGB}
+            startMonth={new Date(1925, 0, 1)}
+            endMonth={new Date(2125, 11, 31)}
             onSelect={(date) => {
               setDate(date)
               setOpen(false)
